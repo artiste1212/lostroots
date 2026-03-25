@@ -69,3 +69,7 @@
 
 # Ignore random .htaccess file that got added
 config/sync/.htaccess
+
+# Ignore OPcaching
+web/php.ini
+web/.opcache/
