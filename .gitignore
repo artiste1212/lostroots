@@ -63,3 +63,6 @@
 
 # Ignore multi-site test environment.
 # simpletest
+
+# Ignore SQL dump files
+*.sql.gz

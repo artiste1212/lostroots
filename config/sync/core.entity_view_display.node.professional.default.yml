@@ -1,0 +1,27 @@
+uuid: dd3f3203-d710-4c5c-8005-428b85f38e1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.professional.field_body
+    - node.type.professional
+  module:
+    - user
+id: node.professional.default
+targetEntityType: node
+bundle: professional
+mode: default
+content:
+  field_body:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
