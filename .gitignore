@@ -66,3 +66,6 @@
 
 # Ignore SQL dump files
 *.sql.gz
+
+# Ignore random .htaccess file that got added
+config/sync/.htaccess
